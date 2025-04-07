@@ -23,4 +23,4 @@ jobs:
           dockerfile: Dockerfile
           username: "${{ secrets.HUB_USERNAME }}"
           password: "${{ secrets.HUB_PASSWORD }}"
-          tags: latest
+          tags: 1.0
