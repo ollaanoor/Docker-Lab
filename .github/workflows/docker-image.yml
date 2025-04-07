@@ -22,6 +22,6 @@ jobs:
           image: ollanoor/demonodeapp
           registry: docker.io
           dockerfile: Dockerfile
-          username: "${{ secrets.HUB_USERNAME }}"
-          password: "${{ secrets.HUB_PASSWORD }}"
+          username: "${{ secrets.DOCKER_HUB_USERNAME }}"
+          password: "${{ secrets.DOCKER_HUB_PASS }}"
           tags: latest
